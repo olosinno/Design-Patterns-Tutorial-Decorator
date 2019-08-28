@@ -1,2 +1,4 @@
 # Design-Patterns-Tutorial-Decorator
-This project is taken from Derek Banas' Design Patterns Tutorial series.
+Java Reflection API isn't a technique to use inside of Java as other design patterns, but a class manipulator. It's used to manipulate classes and everything in a class including fields, methods, constructors, private data, et cetera. While using this is dynamic, it can slow down a program because JVM cannot optimize dynamic code. The Reflection API also can't be used with applets because of the added security applets require. It should be used sparingly.
+
+Decorator design pattern allows you to modify an object dynamically. This is best utilized when needing the capabilities of inheritance with subclasses, but while needing to add functionality at runtime. It's more flexible than inheritance, simplifies code because you add functionality using many simple classes, and rather than rewriting old code you can extend with new code.
